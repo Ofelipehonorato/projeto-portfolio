@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="new-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>Felipe Honorato</title>
+</head>
+<body>  
+  <header>
+    <div class="bg-header">      
+      <div class="display">
+      <img class="logo" src="./img/logo.png" alt="">
+        <ul class="menu">          
+          <li class="bt-menu" ><a href="">Sobre</a></li>
+          <li class="bt-menu" ><a href="">Skills</a></li>
+          <li class="bt-menu" ><a href="">Contato</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="intro">
+        <h1>Bem-vindo</h1>
+        <h2>Eu sou Felipe Honorato</h2>
+        <h3>Desenvolvedor front-end</h3>
+      </div>
+   
+    </div>
+  </header>
+
+  <aside>
+    <div class="float">
+      <a href="https://github.com/ofelipehonorato"  target="_blank" ><img src="/img/github.png"alt="github"></a>
+      <a href="https://www.linkedin.com/in/ofelipehonorato/"  target="_blank" ><img src="/img/linkedin.png"alt="linkedin"></a>
+      <a href="https://www.instagram.com/ofelipehonorato/"  target="_blank" ><img src="/img/instagram.png" alt="instagram" ></a>
+    </div>
+  </aside>
+
+
+    <main class="sobre">
+      <img src="/img/perfil.jpg"> 
+
+      <div class="info">
+        
+        <h3>
+          Oi, eu sou Felipe e <br> atuo como  Desenvolvedor front-end
+        </h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deleniti quidem voluptatibus incidunt, dolores rem. Temporibus eos itaque tempore consectetur officiis. Quia voluptas fuga similique possimus quaerat, numquam iste distinctio.
+        </p>
+        <a href="/pdf/curriculum felipehonorato front-end jr.pdf" download="curriculum_felipehonorato_devfrontend">
+          <button><img src="/img/download-direto.png" alt="download curriculum" width="36px">Baixar CV </button>
+        </a>
+        
+    </main>
+
+    <div class="skills">
+      <div class="hard-skills">
+        <h1>Hard Skills</h1>
+        <ul>
+          <li>
+            <p>HTML</p><div class="progresso"><p style="width: 70%;">70%</p></div>
+          </li>
+          <li>
+            <p>CSS</p><div class="progresso"><p style="width: 70%;">70%</p></div>
+          </li>
+          <li>
+            <p>JAVASCRIPT</p><div class="progresso"><p style="width: 40%;">40%</p></div>
+          </li>
+          <li>
+            <p>REACT</p><div class="progresso"><p style="width: 20%;">20%</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="soft-skills">
+        <h1>Soft Skills</h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio tempora quaerat officiis nihil. <br> Maxime, iure omnis quisquam libero at, quod nihil quam vel alias, consectetur dicta tempora nulla nobis modi.
+      </div>
+    </div>
+
+    <div class="projetos">
+      <div class="calculadora">
+        <article>
+          <a href="https://ofelipehonorato.github.io/projeto-calculadora/" target="_blank"> <img src="/img/home-calculadora.png" alt="calculadora"></a>
+          <h3>Calculadora</h3>
+          <p>Projeto de uma calculadora simples com seu layout baseado na calculadora do iPhone. Desenvolvido utilizando os conhecimentos em HTML, CSS e JavaScript</p>
+        </article>
+      </div>
+
+      <div class="clima">
+        <article>
+          <a href="https://ofelipehonorato.github.io/projeto-clima/" target="_blank"> <img src="img/home-mobile-clima.png" alt="calculadora"></a>
+          <h3>Aplicativo do Clima</h3>
+          <p>Projeto tem como objetivo buscar como está o clima conforme a localização do usuário.
+            Foi utilizado a API gratuita do OpenWeather para conseguir os dados climáticos.
+            Desenvolvido com as tecnologias HTML, CSS e JavaScript.</p>
+        </article>
+      </div>
+
+      <div class="lista-tarefas">
+        <article>
+          <a href="https://ofelipehonorato.github.io/projeto-calculadora/" target="_blank"> <img src="/img/home-calculadora.png" alt="calculadora"></a>
+          <h3>Calculadora</h3>
+          <p>Projeto de uma calculadora simples com seu layout baseado na calculadora do iPhone. Desenvolvido utilizando os conhecimentos em HTML, CSS e JavaScript</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="contato">
+      
+      <form action="formulario-contato" method="post">       
+        <h1>Conte-me mais sobre sua ideia de projeto</h1>
+        <div class="nome">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome_usuario" id="nome">
+        </div>
+
+        <div class="celular">
+          <label for="celular">WhatsApp:</label>
+          <input type="number" name="celular_usuario" id="celular">
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label>
+          <input type="email" name="email_usuario" id="email">
+        </div>
+
+        <div>
+          <label for="texto">Breve descrição do seu projeto:</label>
+          <textarea name="texto_usuario" id="texto" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="bt-form">
+          <button type="submit">Enviar</button>
+        </div>
+        <div class="info-pessoais">
+
+        <h1>Caso preferir entrei em contato</h1>
+        <ul>
+          <li><strong>Nome:</strong>Felipe Franciscato Honorato</li>
+          <li><strong>Contato:</strong>(44) 9 9184-1032</li>
+          <li><strong>Email:</strong>felipef.honorato@gmail.com</li>
+        </ul>
+      </div>
+      </form>
+
+      
+
+    </div>
+    
+
+    <footer>
+
+      
+
+  </footer>
+
+  <script src="scripts.js"></script>
+  
+</body>
+</html>
